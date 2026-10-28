@@ -145,6 +145,8 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Learning to Verify AI-Generated Code](https://openhands.dev/blog/20260305-learning-to-verify-ai-generated-code) - OpenHands' overview of a layered verification stack using trajectory critics trained on production traces for reranking, early stopping, and review-time quality control.
 - [Improving Deep Agents with harness engineering](https://blog.langchain.com/improving-deep-agents-with-harness-engineering/) - LangChain's evidence that harness changes alone can significantly improve benchmark performance.
 
+- [harness-engineering-starter](https://github.com/Kortix-seo/harness-engineering-starter) - A runnable reference for the checks end of a harness: one agent file, a governance-only `kortix.yaml` with deny-by-default grants, and three seeded sensors (import direction, JSDoc types, the tests) whose failure messages carry the fix.
+
 ### Telemetry, Tracing & Performance
 
 - [OpenTelemetry Semantic Conventions for Generative AI Systems](https://opentelemetry.io/docs/specs/semconv/gen-ai/) - Standard span, metric, event, and attribute conventions for instrumenting LLM and agent workflows so harness traces stay portable across observability backends.
